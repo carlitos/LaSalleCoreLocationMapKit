@@ -16,8 +16,18 @@
 
 - (void)viewDidLoad
 {
+    // QUE HACE "setShowsUserLocation"??
+    // PREGUNTA AL USUARIO SÍ PERMITE SABER LA UBICACION
+
+    
+    // CAMBIAR MENSAJE DE NSLocationUsageDescription
+    // MODIFICAR EL info.plist Y AGREGAR UNA PROPIEDAD Privacy - Location Usage Description TIPO STRING Y CAMBIAR EL MENSAJE
+    
+    
+    [worldView setShowsUserLocation:YES];
+
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+   
 }
 
 - (void)didReceiveMemoryWarning
