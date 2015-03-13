@@ -23,6 +23,7 @@
 		767933361AB26EA40047D2DD /* LaSalleCoreLocationMapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767933351AB26EA40047D2DD /* LaSalleCoreLocationMapKitTests.m */; };
 		767933401AB26EB10047D2DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7679333F1AB26EB10047D2DD /* CoreLocation.framework */; };
 		767933421AB26EB80047D2DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767933411AB26EB80047D2DD /* MapKit.framework */; };
+		767933451AB366070047D2DD /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 767933441AB366070047D2DD /* MapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		767933351AB26EA40047D2DD /* LaSalleCoreLocationMapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaSalleCoreLocationMapKitTests.m; sourceTree = "<group>"; };
 		7679333F1AB26EB10047D2DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		767933411AB26EB80047D2DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		767933431AB366070047D2DD /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		767933441AB366070047D2DD /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				7679331C1AB26EA40047D2DD /* Main.storyboard */,
 				7679331F1AB26EA40047D2DD /* ViewController.h */,
 				767933201AB26EA40047D2DD /* ViewController.m */,
+				767933431AB366070047D2DD /* MapPoint.h */,
+				767933441AB366070047D2DD /* MapPoint.m */,
 				767933221AB26EA40047D2DD /* Images.xcassets */,
 				767933111AB26EA40047D2DD /* Supporting Files */,
 			);
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				767933211AB26EA40047D2DD /* ViewController.m in Sources */,
+				767933451AB366070047D2DD /* MapPoint.m in Sources */,
 				7679331B1AB26EA40047D2DD /* AppDelegate.m in Sources */,
 				767933171AB26EA40047D2DD /* main.m in Sources */,
 			);

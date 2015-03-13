@@ -24,8 +24,9 @@
 //    HACIENDO ctrl + Click ARRASTRAR PARA INSTANCIAR LA PROPIEDAD
 //    DARLE UN NOMBRE AL ELEMENTO
     __weak IBOutlet MKMapView *worldView;
-    __weak IBOutlet UITextField *lugarTextField;
+    CLLocationManager *locationManager;
     
 }
+
 
 @end
